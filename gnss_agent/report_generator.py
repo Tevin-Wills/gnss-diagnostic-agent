@@ -401,7 +401,32 @@ def generate_report(agent_result: dict, output_path: str = None) -> str:
           "recommendations for improving GNSS reliability in challenging environments.",
           S["cv_about"]),
     ], bg=C_DEEP, border=C_CYAN)]))
-    story.append(Spacer(1, 0.5*cm))
+    story.append(Spacer(1, 0.4*cm))
+
+    # Project links block
+    links_data = [
+        [p("🔗  GitHub Repository", S["th"]),
+         p('<link href="https://github.com/Tevin-Wills/gnss-diagnostic-agent">'
+           'github.com/Tevin-Wills/gnss-diagnostic-agent</link>', S["td_cy"])],
+        [p("🚀  Live Streamlit Dashboard", S["th"]),
+         p('<link href="https://gnss-diagnostic-agent.streamlit.app">'
+           'gnss-diagnostic-agent.streamlit.app</link>', S["td_cy"])],
+    ]
+    links_cmds = [
+        ("BACKGROUND",    (0, 0), (-1, -1), C_DEEP),
+        ("BACKGROUND",    (0, 0), (0,  -1), C_CARD),
+        ("BOX",           (0, 0), (-1, -1), 1, C_BORDER),
+        ("INNERGRID",     (0, 0), (-1, -1), 0.4, C_BORDER),
+        ("VALIGN",        (0, 0), (-1, -1), "MIDDLE"),
+        ("TOPPADDING",    (0, 0), (-1, -1), 8),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 8),
+        ("LEFTPADDING",   (0, 0), (-1, -1), 10),
+        ("RIGHTPADDING",  (0, 0), (-1, -1), 10),
+    ]
+    links_tbl = Table(links_data, colWidths=[W*0.36, W*0.64])
+    links_tbl.setStyle(TableStyle(links_cmds))
+    story.append(KeepTogether([links_tbl]))
+    story.append(Spacer(1, 0.4*cm))
     story.append(AccentBar(W, 3, C_CYAN))
     story.append(Spacer(1, 0.4*cm))
 

@@ -288,6 +288,11 @@ h3 {{ font-size: 15px; color: var(--cyan); margin: 18px 0 10px; font-weight: 600
 }}
 .reveal.visible {{ opacity: 1; transform: translateY(0); }}
 
+/* ── Project link rows ── */
+#links .card a:hover {{
+    background: #1A3A5A !important;
+}}
+
 /* ── Cards ── */
 .card {{
     background: var(--card); border: 1px solid var(--border);
@@ -780,6 +785,7 @@ def generate_html_report(output_path: str = None) -> str:
     <nav>
         <div class="nav-section">Contents</div>
         <a href="#title">Title Page</a>
+        <a href="#links">Project Links</a>
         <a href="#overview">Overview</a>
         <a href="#prompts">Prompt Engineering</a>
         <a href="#prompts-zero" class="sub">Zero-Shot</a>
@@ -839,6 +845,46 @@ def generate_html_report(output_path: str = None) -> str:
     </div>
     <div class="landing-divider"></div>
     <span class="guide-text">Use the <span>sidebar</span> to navigate · Hover elements for <span>interactive effects</span> · Charts are <span>zoomable &amp; pannable</span></span>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     PROJECT LINKS
+══════════════════════════════════════════════════════════════════ -->
+<section id="links" class="reveal">
+<div class="section-header">
+    <div class="accent-bar" style="background:#29B6F6;"></div>
+    <h2 style="color:#29B6F6;">Project Links</h2>
+</div>
+<div class="card" style="padding:0;overflow:hidden;">
+    <a href="https://github.com/Tevin-Wills/gnss-diagnostic-agent" target="_blank" rel="noopener"
+       style="display:flex;align-items:center;gap:18px;padding:18px 24px;text-decoration:none;
+              border-bottom:1px solid #1E3A5F;transition:background 0.25s;">
+        <span style="font-size:2rem;line-height:1;">&#128279;</span>
+        <div>
+            <div style="font-size:0.78rem;color:#A0AEBB;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:3px;">GitHub Repository</div>
+            <div style="font-size:1.05rem;color:#29B6F6;font-weight:600;">
+                github.com/Tevin-Wills/gnss-diagnostic-agent
+            </div>
+            <div style="font-size:0.82rem;color:#A0AEBB;margin-top:3px;">
+                Source code, agent pipeline, report generators, GNSS sample data
+            </div>
+        </div>
+    </a>
+    <a href="https://gnss-diagnostic-agent.streamlit.app" target="_blank" rel="noopener"
+       style="display:flex;align-items:center;gap:18px;padding:18px 24px;text-decoration:none;
+              transition:background 0.25s;">
+        <span style="font-size:2rem;line-height:1;">&#128640;</span>
+        <div>
+            <div style="font-size:0.78rem;color:#A0AEBB;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:3px;">Live Streamlit Dashboard</div>
+            <div style="font-size:1.05rem;color:#00BCD4;font-weight:600;">
+                gnss-diagnostic-agent.streamlit.app
+            </div>
+            <div style="font-size:0.82rem;color:#A0AEBB;margin-top:3px;">
+                Interactive agent execution, real-time extraction, diagnostic visualizations
+            </div>
+        </div>
+    </a>
 </div>
 </section>
 
