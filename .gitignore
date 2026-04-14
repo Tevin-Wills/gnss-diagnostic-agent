@@ -1,0 +1,36 @@
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Outputs (regenerated at runtime)
+outputs/
+
+# AI assistant config
+.claude/
+
+# IDE
+.vscode/
+.idea/
+
+# Large course/session materials (not part of the codebase)
+*.pptx
+*.docx
+Session*.pdf
+Assignment4_Implementation_Plan.pdf
+generate_plan_pdf.py
+
+# Temp Office lock files
+~$*
+
+# OS
+.DS_Store
+Thumbs.db

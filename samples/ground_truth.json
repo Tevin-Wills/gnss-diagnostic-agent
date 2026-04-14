@@ -1,0 +1,172 @@
+{
+  "satellites": [
+    {
+      "prn": "G01",
+      "system": "GPS",
+      "elevation": 72,
+      "azimuth": 45,
+      "cn0": 47.2
+    },
+    {
+      "prn": "G03",
+      "system": "GPS",
+      "elevation": 55,
+      "azimuth": 120,
+      "cn0": 44.8
+    },
+    {
+      "prn": "G07",
+      "system": "GPS",
+      "elevation": 38,
+      "azimuth": 200,
+      "cn0": 40.1
+    },
+    {
+      "prn": "G08",
+      "system": "GPS",
+      "elevation": 12,
+      "azimuth": 310,
+      "cn0": 25.3
+    },
+    {
+      "prn": "G10",
+      "system": "GPS",
+      "elevation": 65,
+      "azimuth": 85,
+      "cn0": 46.0
+    },
+    {
+      "prn": "G14",
+      "system": "GPS",
+      "elevation": 5,
+      "azimuth": 170,
+      "cn0": 18.5
+    },
+    {
+      "prn": "G22",
+      "system": "GPS",
+      "elevation": 48,
+      "azimuth": 290,
+      "cn0": 42.7
+    },
+    {
+      "prn": "G31",
+      "system": "GPS",
+      "elevation": 28,
+      "azimuth": 15,
+      "cn0": 36.9
+    },
+    {
+      "prn": "R02",
+      "system": "GLONASS",
+      "elevation": 60,
+      "azimuth": 150,
+      "cn0": 43.5
+    },
+    {
+      "prn": "R08",
+      "system": "GLONASS",
+      "elevation": 8,
+      "azimuth": 240,
+      "cn0": 21.0
+    },
+    {
+      "prn": "R15",
+      "system": "GLONASS",
+      "elevation": 42,
+      "azimuth": 330,
+      "cn0": 39.8
+    },
+    {
+      "prn": "R17",
+      "system": "GLONASS",
+      "elevation": 70,
+      "azimuth": 60,
+      "cn0": 45.1
+    }
+  ],
+  "dop_epochs": [
+    {
+      "time": "08:00",
+      "gdop": 2.1,
+      "pdop": 1.8,
+      "hdop": 1.0,
+      "vdop": 1.5,
+      "tdop": 0.9,
+      "num_sats": 10
+    },
+    {
+      "time": "08:15",
+      "gdop": 2.3,
+      "pdop": 2.0,
+      "hdop": 1.1,
+      "vdop": 1.7,
+      "tdop": 1.0,
+      "num_sats": 10
+    },
+    {
+      "time": "08:30",
+      "gdop": 3.8,
+      "pdop": 3.4,
+      "hdop": 2.0,
+      "vdop": 2.8,
+      "tdop": 1.5,
+      "num_sats": 8
+    },
+    {
+      "time": "08:45",
+      "gdop": 6.5,
+      "pdop": 5.9,
+      "hdop": 3.5,
+      "vdop": 4.8,
+      "tdop": 2.7,
+      "num_sats": 6
+    },
+    {
+      "time": "09:00",
+      "gdop": 8.2,
+      "pdop": 7.5,
+      "hdop": 4.2,
+      "vdop": 6.2,
+      "tdop": 3.4,
+      "num_sats": 5
+    },
+    {
+      "time": "09:15",
+      "gdop": 4.1,
+      "pdop": 3.7,
+      "hdop": 2.1,
+      "vdop": 3.0,
+      "tdop": 1.6,
+      "num_sats": 8
+    },
+    {
+      "time": "09:30",
+      "gdop": 2.5,
+      "pdop": 2.2,
+      "hdop": 1.2,
+      "vdop": 1.8,
+      "tdop": 1.1,
+      "num_sats": 9
+    },
+    {
+      "time": "09:45",
+      "gdop": 1.9,
+      "pdop": 1.6,
+      "hdop": 0.9,
+      "vdop": 1.3,
+      "tdop": 0.8,
+      "num_sats": 11
+    }
+  ],
+  "metadata": {
+    "location": {
+      "lat": 39.9,
+      "lon": 116.4
+    },
+    "date": "2026-04-11",
+    "time": "08:45 UTC",
+    "station": "BUAA-REF",
+    "mask_angle_deg": 5
+  }
+}
