@@ -871,14 +871,14 @@ def generate_html_report(output_path: str = None) -> str:
             </div>
         </div>
     </a>
-    <a href="https://gnss-diagnostic-agent.streamlit.app" target="_blank" rel="noopener"
+    <a href="https://gnss-diagnostic-agent-jwffrautkwjic2npdw3fzt.streamlit.app" target="_blank" rel="noopener"
        style="display:flex;align-items:center;gap:18px;padding:18px 24px;text-decoration:none;
               transition:background 0.25s;">
         <span style="font-size:2rem;line-height:1;">&#128640;</span>
         <div>
             <div style="font-size:0.78rem;color:#A0AEBB;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:3px;">Live Streamlit Dashboard</div>
             <div style="font-size:1.05rem;color:#00BCD4;font-weight:600;">
-                gnss-diagnostic-agent.streamlit.app
+                gnss-diagnostic-agent-jwffrautkwjic2npdw3fzt.streamlit.app
             </div>
             <div style="font-size:0.82rem;color:#A0AEBB;margin-top:3px;">
                 Interactive agent execution, real-time extraction, diagnostic visualizations

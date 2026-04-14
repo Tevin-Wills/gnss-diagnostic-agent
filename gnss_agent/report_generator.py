@@ -409,8 +409,8 @@ def generate_report(agent_result: dict, output_path: str = None) -> str:
          p('<link href="https://github.com/Tevin-Wills/gnss-diagnostic-agent">'
            'github.com/Tevin-Wills/gnss-diagnostic-agent</link>', S["td_cy"])],
         [p("🚀  Live Streamlit Dashboard", S["th"]),
-         p('<link href="https://gnss-diagnostic-agent.streamlit.app">'
-           'gnss-diagnostic-agent.streamlit.app</link>', S["td_cy"])],
+         p('<link href="https://gnss-diagnostic-agent-jwffrautkwjic2npdw3fzt.streamlit.app">'
+           'gnss-diagnostic-agent-jwffrautkwjic2npdw3fzt.streamlit.app</link>', S["td_cy"])],
     ]
     links_cmds = [
         ("BACKGROUND",    (0, 0), (-1, -1), C_DEEP),
